@@ -1,0 +1,392 @@
+.div{
+    text-align: center;
+}
+#chit{
+    float: right;
+    margin-right: 200px;
+    margin-top:50px;
+    margin-bottom: 20px;
+     border-radius: 20px;
+    border: 10px solid black;
+} 
+body{
+    background-image: url("blue.jpg");
+}
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(110, 109, 109);
+}
+.nav ul{
+    list-style-type: none;
+    background-color:black;
+}
+.nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    border-left:1px solid white;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li i{
+    color : blue;
+    padding:1px;
+    margin-right:10px;
+}
+.nav ul li:hover{
+    background:lightcoral;
+}
+.div{
+    margin-top:120px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.footer ul li{
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+}
+.footer ul{
+    list-style-type: none;
+    background-color:black;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.footer{
+    margin-top: 400px;
+    bottom: 0;
+}
+.footer i:hover{
+    background: lightcoral;
+}
+.footer i{
+    color : blue;
+    padding:7px;
+}
+.active{
+    background:lightcoral;
+}
+.drop
+{
+    display: none;
+}
+.nav ul li:hover .drop{
+    display: block;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -20px;
+    background: black;
+}
+.nav ul li:hover .drop ul li{
+    display: block;
+    border: 0;
+    padding:20px;
+    margin-top: 10px;;
+    margin-right: 40px;
+    margin-bottom:10px;
+    text-align: left;
+}
+
+
+.nav ul li:hover .drop{
+    width: 250px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    text-align: left;
+
+
+}
+.footer ul li a
+{
+    text-align:right;
+}
+
+
+
+.table {
+    display: flex;
+    margin-left:5px;
+    margin-right:0px;
+    margin-top: 20px;
+}
+.book{
+    margin-top: -150px;
+}
+
+.b{
+    background-image: url("book.jpg");
+    background-size: cover;
+} 
+
+
+.edu th, td {
+    background-color:rgb(85, 77, 146);
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+}
+.edu th, td {
+     border:5px solid rgb(49, 48, 48);
+    border-collapse: collapse;
+}
+
+
+.h{
+    margin-top: 60px;
+    color:antiquewhite
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 80vh;
+    margin-top: 60px;
+  }
+  .cards img {
+    margin: 10px;
+    border: 3px solid #000;
+    max-width: 30vw;
+  }
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  font-size: 18px;
+  background: #010d2d;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+  border: 1px solid #e1e4ea;
+}
+.about{
+    background: rgb(136, 87, 87);
+    padding-bottom: 50px;
+}
+
+.ts{
+  background-color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.skills_section{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 0px;
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+.skills_head h2 span{
+    color:rgb(222, 20, 20);
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color:rgb(177, 100, 69);
+    border-radius: 25px;
+}
+.skill_bar .bar .c{
+    width: 90%;
+    animation: html 2s;
+}
+@keyframes C {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .python{
+    width: 85%;
+    animation: css 2s;
+}
+@keyframes Python {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .web{
+    width: 80%;
+    animation: sass 2s;
+}
+@keyframes Web {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .html{
+    width: 80%;
+    animation: css 2s;
+}
+@keyframes HTML {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .css{
+    width: 75%;
+    animation: react 2s;
+}
+@keyframes CSS {
+    0%{
+        width: 0%;
+    }100%{
+        width: 75%;
+    }
+}
+.skill_bar .bar .sql{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes SQL {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.l ul{
+    list-style-type:none;
+    padding: 20px;
+}
+.l ul li{
+    padding:20px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2px;
+    row-gap: 20px;
+    padding-left: 40px;
+    padding-top: 60px;
+  }
+  
+  .image img {
+    max-width: 80%;
+    max-height:80%;
+    float: left;
+    border: 5px solid black;
+  }
+  
+  .text {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
